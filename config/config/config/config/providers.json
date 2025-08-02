@@ -1,0 +1,94 @@
+{
+  "providers": {
+    "greendot": {
+      "name": "Green Dot Corporation",
+      "display_name": "Green Dot",
+      "networks": ["visa", "mastercard"],
+      "card_types": ["virtual", "physical"],
+      "activation_methods": ["online", "phone", "sms"],
+      "reload_fee": 4.95,
+      "monthly_fee": 7.95,
+      "atm_fee": 2.50,
+      "limits": {
+        "daily_spend": 3000.00,
+        "daily_atm": 500.00,
+        "monthly_load": 15000.00
+      },
+      "required_fields": ["ssn_last4", "zip_code", "date_of_birth"],
+      "support_phone": "1-866-795-7000",
+      "support_hours": "24/7"
+    },
+    "go2bank": {
+      "name": "GO2bank by Green Dot",
+      "display_name": "GO2bank",
+      "networks": ["visa"],
+      "card_types": ["virtual", "physical"],
+      "activation_methods": ["mobile_app", "online"],
+      "reload_fee": 0.00,
+      "monthly_fee": 0.00,
+      "atm_fee": 0.00,
+      "limits": {
+        "daily_spend": 5000.00,
+        "daily_atm": 500.00,
+        "overdraft_limit": 200.00
+      },
+      "required_fields": ["government_id", "phone_verification", "selfie"],
+      "support_phone": "1-855-459-1334",
+      "support_hours": "24/7"
+    },
+    "netspend": {
+      "name": "NetSpend Corporation",
+      "display_name": "NetSpend",
+      "networks": ["visa", "mastercard"],
+      "card_types": ["physical", "virtual"],
+      "activation_methods": ["online", "phone"],
+      "reload_fee": 3.95,
+      "monthly_fee": 9.95,
+      "atm_fee": 2.50,
+      "limits": {
+        "daily_spend": 5000.00,
+        "daily_atm": 500.00,
+        "overdraft_limit": 10.00
+      },
+      "required_fields": ["ssn", "employment_info", "income_verification"],
+      "support_phone": "1-86-NETSPEND",
+      "support_hours": "24/7"
+    },
+    "paypal": {
+      "name": "PayPal Prepaid MasterCard",
+      "display_name": "PayPal Prepaid",
+      "networks": ["mastercard"],
+      "card_types": ["physical", "virtual"],
+      "activation_methods": ["online", "mobile_app"],
+      "reload_fee": 0.00,
+      "monthly_fee": 0.00,
+      "atm_fee": 1.95,
+      "limits": {
+        "daily_spend": 3000.00,
+        "daily_atm": 400.00,
+        "monthly_load": 15000.00
+      },
+      "required_fields": ["paypal_account", "phone_number", "ssn_last4"],
+      "support_phone": "1-844-373-4961",
+      "support_hours": "24/7"
+    },
+    "chime": {
+      "name": "Chime Spending Account",
+      "display_name": "Chime",
+      "networks": ["visa"],
+      "card_types": ["virtual", "physical"],
+      "activation_methods": ["mobile_app"],
+      "reload_fee": 4.50,
+      "monthly_fee": 0.00,
+      "atm_fee": 0.00,
+      "limits": {
+        "daily_spend": 2500.00,
+        "daily_atm": 515.00,
+        "spotme_limit": 200.00
+      },
+      "required_fields": ["phone_verification", "email_verification", "identity_verification"],
+      "support_phone": "1-844-244-6363",
+      "support_hours": "24/7"
+    }
+  }
+}
